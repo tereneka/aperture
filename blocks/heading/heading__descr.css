@@ -1,0 +1,10 @@
+.heading__descr {
+  color: var(--main-text);
+  width: 580px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin: 18px auto 14px;
+}

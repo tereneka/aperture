@@ -1,0 +1,10 @@
+.heading__title {
+  width: max-content;
+  color: var(--accent-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  text-align: center;
+  margin: 0 auto;
+}

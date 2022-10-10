@@ -1,0 +1,14 @@
+.header__nav-item {
+  box-sizing: border-box;
+}
+
+.header__nav-item:first-of-type {
+  margin-right: 24px;
+}
+
+.header__nav-item:last-of-type {
+  background-color: white;
+  border-radius: 14px;
+  padding: 9px 20px 13px;
+  margin-left: -1px;
+}

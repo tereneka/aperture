@@ -1,0 +1,32 @@
+.decor-link {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  width: max-content;
+  height: 42px;
+  border-radius: 14px;
+  box-sizing: border-box;
+}
+
+.decor-link::before {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background-image: url(../../images/aperture-black.png);
+  background-size: cover;
+  vertical-align: middle;
+  margin-right: 11px;
+  scale: 1;
+  transition: all 0.3s;
+}
+
+.decor-link:hover::before {
+  scale: 1.2;
+  rotate: 30deg;
+}
