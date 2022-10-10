@@ -1,0 +1,9 @@
+.photo-section__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--main-text);
+  width: 300px;
+  margin: 0;
+}

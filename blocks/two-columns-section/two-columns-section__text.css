@@ -1,0 +1,8 @@
+.two-columns-section__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--main-text);
+  margin: 0 0 20px;
+}

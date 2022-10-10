@@ -1,0 +1,5 @@
+.two-columns-section {
+  min-height: 540px;
+  position: relative;
+  display: flex;
+}

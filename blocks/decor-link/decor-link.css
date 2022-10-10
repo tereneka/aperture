@@ -28,5 +28,5 @@
 
 .decor-link:hover::before {
   scale: 1.2;
-  rotate: 30deg;
+  rotate: 180deg;
 }

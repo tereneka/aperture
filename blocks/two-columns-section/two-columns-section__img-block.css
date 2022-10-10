@@ -1,0 +1,5 @@
+.two-columns-section__img-block {
+  width: 50%;
+  background-image: url(../../images/tools.png);
+  background-size: cover;
+}
