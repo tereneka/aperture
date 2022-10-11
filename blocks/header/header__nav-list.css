@@ -1,8 +1,7 @@
 .header__nav-list {
   list-style: none;
   margin: 0;
-  padding-left: 19.81px;
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 3vw;
 }

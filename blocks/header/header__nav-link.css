@@ -6,13 +6,3 @@
   font-size: 15px;
   line-height: 20px;
 }
-
-.header__nav-item:first-of-type .header__nav-link {
-  font-size: 13px;
-}
-
-.header__nav-item:last-of-type .header__nav-link {
-  font-size: 16px;
-  letter-spacing: 0.4px;
-  color: black;
-}

@@ -1,6 +1,4 @@
 .root {
-  width: 1440px;
   background-color: var(--main-back);
-  font-family: "Poppins";
   margin: 0;
 }

@@ -1,9 +1,9 @@
 .header {
   box-sizing: border-box;
-  height: 90px;
-  width: 1200px;
+  height: 12vh;
+  width: 80vw;
   margin: auto;
-  padding: 0 20px 0 32px;
+  padding: 0 1vw 0 2vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
