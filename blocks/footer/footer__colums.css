@@ -1,0 +1,17 @@
+.footer__colums {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.footer__colums:first-of-type {
+  padding-bottom: 36px;
+}
+.footer__colums:nth-of-type(2) {
+  padding: 36px 0;
+  border-top: 2px solid var(--accent-text);
+  border-bottom: 2px solid var(--accent-text);
+}
+
+.footer__colums:last-of-type {
+  padding-top: 36px;
+}

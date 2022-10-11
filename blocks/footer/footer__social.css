@@ -1,0 +1,9 @@
+.footer__social {
+  flex-basis: 40%;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}

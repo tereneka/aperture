@@ -1,0 +1,8 @@
+.clients-section {
+  min-height: 500px;
+  box-sizing: border-box;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,6 +1,5 @@
 .photo-section {
   min-height: 600px;
-  background-image: url(../../images/sunset.png);
   background-size: cover;
   display: flex;
   flex-direction: column;

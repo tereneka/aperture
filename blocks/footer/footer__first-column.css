@@ -1,0 +1,6 @@
+.footer__first-column {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

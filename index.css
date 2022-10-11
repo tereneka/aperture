@@ -35,6 +35,9 @@
 @import url(./blocks/decor-link/decor-link.css);
 
 @import url(./blocks/photo-section/photo-section.css);
+@import url(./blocks/photo-section/_name/photo-section_name_monstera.css);
+@import url(./blocks/photo-section/_name/photo-section_name_sunset.css);
+@import url(./blocks/photo-section/_name/photo-section_name_star.css);
 @import url(./blocks/photo-section/photo-section__title.css);
 @import url(./blocks/photo-section/photo-section__text.css);
 
@@ -44,3 +47,24 @@
 @import url(./blocks/two-columns-section/two-columns-section__subtitle.css);
 @import url(./blocks/two-columns-section/two-columns-section__text.css);
 @import url(./blocks/two-columns-section/two-columns-section__img-block.css);
+
+@import url(./blocks/clients-section/clients-section.css);
+@import url(./blocks/clients-section/clients-section__list.css);
+@import url(./blocks/clients-section/clients-section__item.css);
+@import url(./blocks/clients-section/clients-section__logo.css);
+
+@import url(./blocks/contact-section/contact-section.css);
+@import url(./blocks/contact-section/contact-section__decor-link.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/footer__colums.css);
+@import url(./blocks/footer/footer__first-column.css);
+@import url(./blocks/footer/footer__paragraf.css);
+@import url(./blocks/footer/footer__nav-column.css);
+@import url(./blocks/footer/footer__title.css);
+@import url(./blocks/footer/footer__nav-list.css);
+@import url(./blocks/footer/footer__nav-link.css);
+@import url(./blocks/footer/footer__subscribe.css);
+@import url(./blocks/footer/footer__input.css);
+@import url(./blocks/footer/footer__button.css);
+@import url(./blocks/footer/footer__social.css);

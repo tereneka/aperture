@@ -1,0 +1,8 @@
+.footer__nav-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--accent-text);
+}

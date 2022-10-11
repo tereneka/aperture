@@ -1,0 +1,11 @@
+.clients-section__list {
+  list-style: none;
+  width: 80vw;
+  padding-left: 0;
+  margin: 42px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
