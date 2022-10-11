@@ -5,6 +5,7 @@
       rgba(0, 0, 0, 0) 98.53%
     ),
     url(../../images/header-back.png);
+  background-size: cover;
   min-height: 85vh;
   display: flex;
   flex-direction: column;
