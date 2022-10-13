@@ -19,7 +19,8 @@
   width: 21px;
   height: 21px;
   background-image: url(../../images/aperture-black.svg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   vertical-align: middle;
   margin-right: 11px;
   scale: 1;

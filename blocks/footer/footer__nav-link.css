@@ -5,4 +5,9 @@
   font-size: 14px;
   line-height: 20px;
   color: var(--accent-text);
+  transition: all 0.3s;
+}
+
+.footer__nav-link:hover {
+  opacity: 0.7;
 }
