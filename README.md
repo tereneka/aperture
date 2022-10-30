@@ -23,4 +23,4 @@
 - БЭМ-технология
 - файловая структура БЭМ flex
 
-[посмотреть проект можно здесь](https://tereneka.github.io/rus-travel-guide/index.html)
+[посмотреть проект можно здесь](https://tereneka.github.io/aperture/index.html)
