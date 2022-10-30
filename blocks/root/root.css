@@ -1,5 +1,8 @@
 .root {
   background-color: var(--main-back);
-  margin: 0;
+  margin: 0 auto;
   font-family: "Poppins", sans-serif;
+  max-width: 1440px;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }

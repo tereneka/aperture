@@ -1,4 +1,7 @@
 .heading {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 16px;
   background-image: linear-gradient(
       360deg,
       #000000 18.78%,
@@ -6,10 +9,23 @@
     ),
     url(../../images/header-back.png);
   background-size: cover;
-  min-height: 85vh;
+  background-position: center;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  .heading {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .heading {
+    min-height: 700px;
+  }
 }

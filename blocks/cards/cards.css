@@ -1,8 +1,13 @@
 .cards {
   list-style: none;
   padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
   gap: 16px;
-  justify-content: center;
+}
+
+@media screen and (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  }
 }

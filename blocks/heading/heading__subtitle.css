@@ -3,10 +3,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--main-text);
-  margin: 0 auto 1px;
+  margin: 0 auto 5px;
 }

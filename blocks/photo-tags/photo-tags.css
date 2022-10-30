@@ -5,8 +5,4 @@
   color: var(--accent-text);
   padding-left: 0;
   margin: 0;
-  height: 16px;
-  position: absolute;
-  bottom: 40px;
-  right: 40px;
 }

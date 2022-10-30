@@ -8,9 +8,9 @@
   font-size: 15px;
   line-height: 20px;
   width: max-content;
-  height: 42px;
   border-radius: 14px;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 .decor-link::before {
@@ -18,7 +18,7 @@
   display: inline-block;
   width: 21px;
   height: 21px;
-  background-image: url(../../images/aperture-black.svg);
+  background-image: url(../../images/logo/aperture-black.svg);
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle;

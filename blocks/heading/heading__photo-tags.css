@@ -1,0 +1,7 @@
+@media screen and (min-width: 600px) {
+  .heading__photo-tags {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+  }
+}

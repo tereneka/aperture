@@ -1,0 +1,33 @@
+.cards__item {
+  flex-basis: 576px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 16px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.cards__item:first-of-type {
+  background-image: url(../../images/product.png);
+}
+
+.cards__item:nth-of-type(2) {
+  background-image: url(../../images/architecture.png);
+}
+
+.cards__item:nth-of-type(3) {
+  background-image: url(../../images/drone.png);
+}
+
+.cards__item:nth-of-type(4) {
+  background-image: url(../../images/wildlife.png);
+}
+
+@media screen and (min-width: 600px) {
+  .cards__item {
+    padding: 30px;
+  }
+}

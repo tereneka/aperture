@@ -3,7 +3,7 @@
   height: 38px;
   border: 0;
   border-radius: 8px;
-  font-size: 20px;
+  font-size: 16px;
   box-sizing: border-box;
   padding: 8px;
 }
@@ -11,4 +11,10 @@
 .footer__input:focus {
   outline-color: transparent;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.501);
+}
+
+@media screen and (min-width: 400px) {
+  .footer__input {
+    font-size: 20px;
+  }
 }

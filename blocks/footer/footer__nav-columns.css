@@ -1,0 +1,14 @@
+.footer__nav-columns {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+@media screen and (min-width: 400px) {
+  .footer__nav-columns {
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+}

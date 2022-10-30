@@ -6,6 +6,12 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--accent-text);
-  width: 300px;
+  width: 100%;
   margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .photo-section__title {
+    width: 300px;
+  }
 }

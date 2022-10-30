@@ -1,10 +1,16 @@
 .heading__title {
-  width: max-content;
+  width: 100%;
   color: var(--accent-text);
   font-style: normal;
   font-weight: 400;
-  font-size: 54px;
-  line-height: 59px;
+  font-size: 40px;
+  line-height: 1.1;
   text-align: center;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  .heading__title {
+    font-size: 54px;
+  }
 }

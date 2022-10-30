@@ -4,6 +4,12 @@
   font-size: 14px;
   line-height: 20px;
   color: var(--main-text);
-  width: 300px;
+  width: 100%;
   margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .photo-section__text {
+    width: 300px;
+  }
 }

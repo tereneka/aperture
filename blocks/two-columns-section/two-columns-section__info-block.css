@@ -1,8 +1,17 @@
 .two-columns-section__info-block {
-  width: 50%;
-  padding: 0 7vw;
+  width: 100%;
+  padding: 0 16px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-image: url(../../images/tools.png);
+}
+
+@media screen and (min-width: 700px) {
+  .two-columns-section__info-block {
+    background-image: none;
+    width: 50%;
+    padding: 0 7%;
+  }
 }

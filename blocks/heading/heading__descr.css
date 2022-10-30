@@ -1,10 +1,23 @@
 .heading__descr {
   color: var(--main-text);
-  width: 45vw;
+  width: 100%;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  margin: 18px auto 70px;
+  margin: 18px auto 30px;
+}
+
+@media screen and (min-width: 600px) {
+  .heading__descr {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .heading__descr {
+    width: 50%;
+    margin-bottom: 70px;
+  }
 }

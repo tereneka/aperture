@@ -1,5 +1,7 @@
-.two-columns-section__img-block {
-  width: 50%;
-  background-image: url(../../images/tools.png);
-  background-size: cover;
+@media screen and (min-width: 700px) {
+  .two-columns-section__img-block {
+    background-image: url(../../images/tools.png);
+    background-size: cover;
+    width: 50%;
+  }
 }

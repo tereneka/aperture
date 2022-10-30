@@ -1,8 +1,5 @@
 .footer__nav-column {
-  flex-basis: 20%;
+  min-width: max-content;
+  flex-basis: 50%;
   box-sizing: border-box;
-}
-
-.footer__nav-column:first-of-type {
-  padding-right: 15px;
 }

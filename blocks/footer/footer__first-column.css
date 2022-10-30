@@ -1,6 +1,13 @@
 .footer__first-column {
-  flex-basis: 60%;
+  flex-basis: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .footer__first-column {
+    min-width: max-content;
+    flex-basis: 60%;
+  }
 }

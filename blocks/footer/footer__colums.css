@@ -1,6 +1,9 @@
 .footer__colums {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   box-sizing: border-box;
+  gap: 20px 0;
 }
 
 .footer__colums:first-of-type {

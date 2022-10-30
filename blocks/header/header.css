@@ -1,10 +1,15 @@
 .header {
   box-sizing: border-box;
-  height: 12vh;
-  width: 80vw;
-  margin: auto;
-  padding: 0 1vw 0 2vw;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px 200px;
+}
+
+@media screen and (min-width: 1130px) {
+  .header {
+    padding: 20px 10%;
+  }
 }

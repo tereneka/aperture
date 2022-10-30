@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 @import url(./vendor/variables.css);
 @import url(./blocks/root/root.css);
 
@@ -6,14 +6,15 @@
 @import url(./blocks/logo/logo__img.css);
 
 @import url(./blocks/header/header.css);
+@import url(./blocks/header/header__nav.css);
 @import url(./blocks/header/header__nav-list.css);
-@import url(./blocks/header/header__nav-item.css);
 @import url(./blocks/header/header__nav-link.css);
 
 @import url(./blocks/heading/heading.css);
 @import url(./blocks/heading/heading__title.css);
 @import url(./blocks/heading/heading__subtitle.css);
 @import url(./blocks/heading/heading__descr.css);
+@import url(./blocks/heading/heading__photo-tags.css);
 
 @import url(./blocks/photo-tags/photo-tags.css);
 @import url(./blocks/photo-tags/photo-tags__item.css);
@@ -25,11 +26,7 @@
 @import url(./blocks/cards-section/cards-section.css);
 @import url(./blocks/cards/cards.css);
 @import url(./blocks/cards-section/cards-section__cards.css);
-@import url(./blocks/cards/__item/cards__item.css);
-@import url(./blocks/cards/__item/_name/cards__item_name_architecture.css);
-@import url(./blocks/cards/__item/_name/cards__item_name_drone.css);
-@import url(./blocks/cards/__item/_name/cards__item_name_product.css);
-@import url(./blocks/cards/__item/_name/cards__item_name_wildlife.css);
+@import url(./blocks/cards/cards__item.css);
 @import url(./blocks/cards/cards__title.css);
 @import url(./blocks/cards/cards__text.css);
 
@@ -41,6 +38,7 @@
 @import url(./blocks/photo-section/_name/photo-section_name_star.css);
 @import url(./blocks/photo-section/photo-section__title.css);
 @import url(./blocks/photo-section/photo-section__text.css);
+@import url(./blocks/photo-section/photo-section__photo-tags.css);
 
 @import url(./blocks/two-columns-section/two-columns-section.css);
 @import url(./blocks/two-columns-section/two-columns-section__info-block.css);
@@ -48,6 +46,7 @@
 @import url(./blocks/two-columns-section/two-columns-section__subtitle.css);
 @import url(./blocks/two-columns-section/two-columns-section__text.css);
 @import url(./blocks/two-columns-section/two-columns-section__img-block.css);
+@import url(./blocks/two-columns-section/two-columns-section__photo-tags.css);
 
 @import url(./blocks/clients-section/clients-section.css);
 @import url(./blocks/clients-section/clients-section__list.css);
@@ -61,6 +60,7 @@
 @import url(./blocks/footer/footer__colums.css);
 @import url(./blocks/footer/footer__first-column.css);
 @import url(./blocks/footer/footer__paragraf.css);
+@import url(./blocks/footer/footer__nav-columns.css);
 @import url(./blocks/footer/footer__nav-column.css);
 @import url(./blocks/footer/footer__title.css);
 @import url(./blocks/footer/footer__nav-list.css);

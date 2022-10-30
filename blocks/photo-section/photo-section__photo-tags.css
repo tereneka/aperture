@@ -1,0 +1,13 @@
+.photo-section__photo-tags {
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+  padding-left: 16px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 400px) {
+  .photo-section__photo-tags {
+    right: 40px;
+  }
+}

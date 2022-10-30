@@ -1,9 +1,19 @@
 .section-subtitle {
+  box-sizing: border-box;
+  width: 100%;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 1.25;
   text-align: center;
   color: var(--main-text);
   margin: 15px auto 0;
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 600px) {
+  .section-subtitle {
+    font-size: 24px;
+    padding: 0 20px;
+  }
 }
