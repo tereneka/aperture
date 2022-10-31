@@ -11,6 +11,18 @@
   position: relative;
 }
 
+.photo-section:first-of-type {
+  background-image: url(../../images/photo-sections/sunset.png);
+}
+
+.photo-section:nth-of-type(2) {
+  background-image: url(../../images/photo-sections/monstera.png);
+}
+
+.photo-section:nth-of-type(3) {
+  background-image: url(../../images/photo-sections/star.png);
+}
+
 @media screen and (min-width: 600px) {
   .photo-section {
     padding: 0 7% 20px 0;
