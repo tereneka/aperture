@@ -11,15 +11,15 @@
   position: relative;
 }
 
-.photo-section:first-of-type {
+.photo-section:nth-of-type(3) {
   background-image: url(../../images/photo-sections/sunset.png);
 }
 
-.photo-section:nth-of-type(2) {
+.photo-section:nth-of-type(5) {
   background-image: url(../../images/photo-sections/monstera.png);
 }
 
-.photo-section:nth-of-type(3) {
+.photo-section:nth-of-type(7) {
   background-image: url(../../images/photo-sections/star.png);
 }
 
